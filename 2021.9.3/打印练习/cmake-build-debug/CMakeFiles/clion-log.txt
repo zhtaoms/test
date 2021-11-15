@@ -1,0 +1,4 @@
+/home/zht/clion-2021.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/zht/Desktop/打印练习
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zht/Desktop/打印练习/cmake-build-debug

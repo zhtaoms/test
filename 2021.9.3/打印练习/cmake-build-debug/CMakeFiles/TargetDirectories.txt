@@ -1,0 +1,3 @@
+/home/zht/Desktop/打印练习/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zht/Desktop/打印练习/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zht/Desktop/打印练习/cmake-build-debug/CMakeFiles/app.dir
