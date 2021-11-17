@@ -30,7 +30,7 @@ void  Stack::push(char ch)//压栈
         top++;
         this->data[top]=ch;
     }else{
-        cout<<"已经满了，无法继续压栈"<<endl;
+       throw Full();
     }
 }
 char  Stack::pop()//出栈并返回出栈元素
@@ -41,19 +41,16 @@ char  Stack::pop()//出栈并返回出栈元素
         top--;
         return temp;
     }else{
-        cout<<"栈内无数据！"<<endl;
-        return 0;
+        throw Empty();
     }
 }
 char  Stack::getTop()//获取栈顶元素
 {
     if(!isEmpty()){
         char t=this->data[top];
-        
         return t;
     }else{
-        cout<<"栈内无数据！"<<endl;
-        return 0;
+        throw Empty();
     }
 }
 bool  Stack::isEmpty()//判断栈是否为空

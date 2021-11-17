@@ -1,10 +1,6 @@
 # ifndef STACK_H
 # define STACK_H
 
-# include <iostream>
-
-using namespace std;
-
 const int MAX_SIZE = 100;
 
 class Stack
@@ -25,6 +21,9 @@ class Stack
     bool isEmpty();//判断栈是否为空
     bool isFull();//判断栈是否为满
     void setNull();//将栈设置为空
+    //定义错误内部类
+    class Full{};
+    class Empty{};
 };
 
 # endif
